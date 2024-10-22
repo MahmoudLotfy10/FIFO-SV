@@ -1,0 +1,129 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /top/DUT
+=== Design Unit: work.FIFO
+=================================================================================
+
+Assertion Coverage:
+    Assertions                      31        31         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/max_fifo_addr_c
+                     FIFO.sv(87)                        0          1
+/top/DUT/wr_ptr1_c   FIFO.sv(94)                        0          1
+/top/DUT/wr_ptr2_p   FIFO.sv(100)                       0          1
+/top/DUT/rd_ptr1_c   FIFO.sv(107)                       0          1
+/top/DUT/rd_ptr2_p   FIFO.sv(113)                       0          1
+/top/DUT/counter1    FIFO.sv(121)                       0          1
+/top/DUT/counter2_p  FIFO.sv(127)                       0          1
+/top/DUT/counter3_p  FIFO.sv(134)                       0          1
+/top/DUT/counter4_p  FIFO.sv(140)                       0          1
+/top/DUT/counter5_p  FIFO.sv(146)                       0          1
+/top/DUT/wr_ack1_c   FIFO.sv(153)                       0          1
+/top/DUT/wr_ack2_p   FIFO.sv(159)                       0          1
+/top/DUT/wr_ack3_p   FIFO.sv(165)                       0          1
+/top/DUT/overflow1_c FIFO.sv(172)                       0          1
+/top/DUT/overflow2_p FIFO.sv(178)                       0          1
+/top/DUT/overflow3_p FIFO.sv(184)                       0          1
+/top/DUT/underflow1_c
+                     FIFO.sv(191)                       0          1
+/top/DUT/underflow2_p
+                     FIFO.sv(197)                       0          1
+/top/DUT/underflow3_p
+                     FIFO.sv(203)                       0          1
+/top/DUT/full1_p     FIFO.sv(211)                       0          1
+/top/DUT/full2_p     FIFO.sv(217)                       0          1
+/top/DUT/almostfull1_p
+                     FIFO.sv(224)                       0          1
+/top/DUT/almostfull2_p
+                     FIFO.sv(230)                       0          1
+/top/DUT/full_almostfull1_p
+                     FIFO.sv(237)                       0          1
+/top/DUT/full_almostfull2_p
+                     FIFO.sv(244)                       0          1
+/top/DUT/empty1_p    FIFO.sv(251)                       0          1
+/top/DUT/empty2_p    FIFO.sv(257)                       0          1
+/top/DUT/almostempty1_p
+                     FIFO.sv(265)                       0          1
+/top/DUT/almostempty2_p
+                     FIFO.sv(271)                       0          1
+/top/DUT/empty_almostempty1_p
+                     FIFO.sv(278)                       0          1
+/top/DUT/empty_almostempty2_p
+                     FIFO.sv(285)                       0          1
+
+=================================================================================
+=== Instance: /top/TB
+=== Design Unit: work.FIFO_TB
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       2         2         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/TB/#ublk#182146242#15/immed__16
+                     FIFO_TB.sv(16)                     0          1
+/top/TB/RST/immed__39
+                     FIFO_TB.sv(39)                     0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/top/DUT/max_fifo_addr_c
+                     FIFO.sv(87)                        0          1
+/top/DUT/wr_ptr1_c   FIFO.sv(94)                        0          1
+/top/DUT/wr_ptr2_p   FIFO.sv(100)                       0          1
+/top/DUT/rd_ptr1_c   FIFO.sv(107)                       0          1
+/top/DUT/rd_ptr2_p   FIFO.sv(113)                       0          1
+/top/DUT/counter1    FIFO.sv(121)                       0          1
+/top/DUT/counter2_p  FIFO.sv(127)                       0          1
+/top/DUT/counter3_p  FIFO.sv(134)                       0          1
+/top/DUT/counter4_p  FIFO.sv(140)                       0          1
+/top/DUT/counter5_p  FIFO.sv(146)                       0          1
+/top/DUT/wr_ack1_c   FIFO.sv(153)                       0          1
+/top/DUT/wr_ack2_p   FIFO.sv(159)                       0          1
+/top/DUT/wr_ack3_p   FIFO.sv(165)                       0          1
+/top/DUT/overflow1_c FIFO.sv(172)                       0          1
+/top/DUT/overflow2_p FIFO.sv(178)                       0          1
+/top/DUT/overflow3_p FIFO.sv(184)                       0          1
+/top/DUT/underflow1_c
+                     FIFO.sv(191)                       0          1
+/top/DUT/underflow2_p
+                     FIFO.sv(197)                       0          1
+/top/DUT/underflow3_p
+                     FIFO.sv(203)                       0          1
+/top/DUT/full1_p     FIFO.sv(211)                       0          1
+/top/DUT/full2_p     FIFO.sv(217)                       0          1
+/top/DUT/almostfull1_p
+                     FIFO.sv(224)                       0          1
+/top/DUT/almostfull2_p
+                     FIFO.sv(230)                       0          1
+/top/DUT/full_almostfull1_p
+                     FIFO.sv(237)                       0          1
+/top/DUT/full_almostfull2_p
+                     FIFO.sv(244)                       0          1
+/top/DUT/empty1_p    FIFO.sv(251)                       0          1
+/top/DUT/empty2_p    FIFO.sv(257)                       0          1
+/top/DUT/almostempty1_p
+                     FIFO.sv(265)                       0          1
+/top/DUT/almostempty2_p
+                     FIFO.sv(271)                       0          1
+/top/DUT/empty_almostempty1_p
+                     FIFO.sv(278)                       0          1
+/top/DUT/empty_almostempty2_p
+                     FIFO.sv(285)                       0          1
+/top/TB/#ublk#182146242#15/immed__16
+                     FIFO_TB.sv(16)                     0          1
+/top/TB/RST/immed__39
+                     FIFO_TB.sv(39)                     0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+
